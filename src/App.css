@@ -1,0 +1,21 @@
+
+.formpassword{
+   margin-top: 20px;
+   padding: 10px;
+}
+button{
+    margin: 20px;
+    background-color: blue;
+    padding: 5px;
+    width: 70px;
+    color: white;
+}
+img{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+.blankpage{
+    text-decoration: none;
+    
+}
