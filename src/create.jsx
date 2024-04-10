@@ -1,11 +1,11 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-function create() {
-
-  
-  return<>
-  <center>
+import { Link } from 'react-router-dom';
+function Create() {
+  return <>
+    <center>
+    <h1>Zen Class Ticketing System</h1>
     <Form>
     <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Control type="text" placeholder="FirstName" />
@@ -27,14 +27,14 @@ function create() {
         <Form.Control type="password" placeholder="Confirm Password" />
     </Form.Group>
     <br></br>
+    <Link to='/Login'>
       <Button variant="primary" type="submit">
         Register
       </Button>
+      </Link>
     </Form>
     </center>
-
-   
   </>
 }
 
-export default create
+export default Create
